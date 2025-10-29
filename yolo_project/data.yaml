@@ -1,0 +1,4 @@
+train: C:\Users\sankhya\Desktop\PROJECTS\SEM 5\ML mini project\yolo_project\images\train
+val: C:\Users\sankhya\Desktop\PROJECTS\SEM 5\ML mini project\yolo_project\images\val
+nc: 4
+names: ['Potato___Early_blight', 'Potato___Late_blight', 'Potato___healthy']
