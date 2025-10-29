@@ -1,6 +1,0 @@
-streamlit
-tensorflow
-torch
-ultralytics
-pillow
-numpy
