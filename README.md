@@ -1,51 +1,76 @@
-🥔 Potato Leaf Disease Detection using Deep Learning
+# 🥔 Potato Leaf Disease Detection using Deep Learning
 
-A deep learning–based web application that detects and classifies potato leaf diseases using CNN, ResNet18, and YOLOv8 models. The project assists farmers and researchers by enabling real-time disease identification through a simple web interface built with Streamlit.
+A deep learning-based web application that detects and classifies potato leaf diseases using CNN, ResNet18, and YOLOv8 models. This project assists farmers and researchers by enabling real-time disease identification through a simple web interface built with Streamlit.
 
-🚀 Features
-Multi-model implementation: CNN, ResNet50, and YOLOv8
-Real-time detection and localization of diseased leaf regions
-Interactive Streamlit web interface for model testing
-Image augmentation and preprocessing pipeline for improved accuracy
-Visualization of model accuracy and predictions
+---
 
-🧠 Models Overview
-Model	                                Description	                                           Accuracy / mAP
-CNN	           Custom convolutional neural network for basic classification	                      94.2%
-ResNet50	     Transfer learning with pretrained ResNet50 for deeper feature extraction	          96.8%
-YOLOv8	       Object detection model for real-time leaf disease localization	                    93.5% (mAP)
+## ✨ Features
 
-📂 Dataset
-Source: PlantVillage Dataset (Potato Leaf Subset)
-Original Images: 2,152
-After Augmentation: ~6,000 images
-Classes include Healthy, Early Blight, and Late Blight.
+* **Multi-model Implementation:** CNN, ResNet50, and YOLOv8 for robust real-time disease detection and localization.
+* **Interactive Web Interface:** User-friendly Streamlit application for model testing and visualization.
+* **Image Preprocessing:** Includes augmentation and preprocessing pipelines.
+* **Visualizations:** Comprehensive visualization of model accuracy and predictions.
 
-🛠️ Tech Stack
-Languages & Frameworks: Python, Streamlit
-Libraries Used: TensorFlow, Keras, PyTorch, OpenCV, scikit-learn, NumPy, Pandas, Matplotlib, TQDM
+---
 
-⚙️ Setup Instructions
+## 🚀 Models Overview
 
-1. Clone the repository:
-git clone https://github.com/<your-username>/Potato-Disease-Detection.git
-cd Potato-Disease-Detection
+* **CNN (Custom):** Convolutional neural network for basic classification with **94.2% accuracy**.
+* **ResNet50 (Transfer Learning):** Utilizes a pretrained ResNet50 for deeper feature extraction, achieving **96.8% accuracy**.
+* **YOLOv8:** Object detection model for real-time leaf disease localization with **93.5% mAP**.
 
-2. Install dependencies:
-pip install -r requirements.txt
+---
 
-3. Run the Streamlit app:
-streamlit run app/streamlit_app.py
+## 📊 Dataset
 
-4.Upload a potato leaf image and view disease prediction results.
+* **Source:** PlantVillage Dataset (Potato Leaf Subset).
+* **Original Images:** 2,152.
+* **After Augmentation:** Approximately ~6,000 images.
+* **Classes:** Healthy, Early Blight, and Late Blight.
 
-📈 Results
-CNN: 94.2%
-ResNet50: 96.8%
-YOLOv8: 93.5% (mAP)
-Demonstrated robust performance across all models with effective real-time deployment.
+---
 
-📚 Future Enhancements
-Add more disease categories
-Deploy on cloud (Streamlit Cloud / AWS)
-Integrate with mobile camera for field detection
+## 🛠️ Tech Stack & Frameworks
+
+* **Languages:** Python
+* **Core Libraries:** TensorFlow, Keras, PyTorch, OpenCV, scikit-learn, NumPy, Pandas, Matplotlib, TQDM
+* **Web Framework:** Streamlit
+
+---
+
+## ⚙️ Setup & Installation
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/Potato-Disease-Detection.git](https://github.com/your-username/Potato-Disease-Detection.git)
+    cd Potato-Disease-Detection
+    ```
+2.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  **Run the Streamlit application:**
+    ```bash
+    streamlit run app/streamlit_app.py
+    ```
+4.  **Usage:** Upload a potato leaf image via the web interface and view disease prediction results.
+
+---
+
+## ✅ Performance & Results
+
+* **CNN:** 94.2% accuracy
+* **ResNet50:** 96.8% accuracy
+* **YOLOv8:** 93.5% mAP (mean Average Precision)
+
+Demonstrates robust performance across all models with effective real-time deployment capabilities.
+
+---
+
+## 📈 Future Enhancements
+
+* Add more disease categories.
+* Deploy on cloud (Streamlit Cloud / AWS).
+* Integrate with mobile camera for field detection.
+
+---
